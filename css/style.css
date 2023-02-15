@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+.flag {
+  width: 60vw;
+  height: 40vw;
+  background-color: #012169;
+  margin: 20vw;
+  position: relative;
+  display: flex;
+}
+
+.crosslines1 {
+  position: absolute;
+  width: 60vw;
+  height: 40vw;
+  background: #c8102e;
+  clip-path: polygon(
+    45% 0%,
+    55% 0%,
+    55% 42.3%,
+    100.2% 42.3%,
+    100.2% 57.8%,
+    55% 58.3%,
+    55.1% 100.8%,
+    45.1% 100.8%,
+    45.1% 57.8%,
+    0% 57.8%,
+    0% 42.3%,
+    45% 42.3%
+  );
+}
