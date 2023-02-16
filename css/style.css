@@ -11,6 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .red-crossline {
@@ -44,9 +45,9 @@ body {
 .red-diag-line {
   position: absolute;
   width: 2vw;
-  height: 71vw;
+  height: 73vw;
   background-color: #c8102e;
-  transform: rotate(58deg);
+  transform: rotate(56deg);
   border-left: 1vw solid white;
   border-right: 3vw solid white;
 }
@@ -54,9 +55,9 @@ body {
 .red-diag-line2 {
   position: absolute;
   width: 2vw;
-  height: 71vw;
+  height: 73vw;
   background-color: #c8102e;
-  transform: rotate(-55deg);
+  transform: rotate(-57deg);
   border-left: 1vw solid white;
   border-right: 3vw solid white;
 }
