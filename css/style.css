@@ -9,25 +9,54 @@ body {
   margin: 20vw;
   position: relative;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.crosslines1 {
+.red-crossline {
+  position: absolute;
+  width: 8vw;
+  height: 40vw;
+  background-color: #c8102e;
+}
+
+.red-crossline2 {
   position: absolute;
   width: 60vw;
+  height: 8vw;
+  background-color: #c8102e;
+}
+
+.white-crossline {
+  position: absolute;
+  width: 12vw;
   height: 40vw;
-  background: #c8102e;
-  clip-path: polygon(
-    45% 0%,
-    55% 0%,
-    55% 42.3%,
-    100.2% 42.3%,
-    100.2% 57.8%,
-    55% 58.3%,
-    55.1% 100.8%,
-    45.1% 100.8%,
-    45.1% 57.8%,
-    0% 57.8%,
-    0% 42.3%,
-    45% 42.3%
-  );
+  background-color: white;
+}
+
+.white-crossline2 {
+  position: absolute;
+  width: 60vw;
+  height: 12vw;
+  background-color: white;
+}
+
+.red-diag-line {
+  position: absolute;
+  width: 2vw;
+  height: 71vw;
+  background-color: #c8102e;
+  transform: rotate(58deg);
+  border-left: 1vw solid white;
+  border-right: 3vw solid white;
+}
+
+.red-diag-line2 {
+  position: absolute;
+  width: 2vw;
+  height: 71vw;
+  background-color: #c8102e;
+  transform: rotate(-55deg);
+  border-left: 1vw solid white;
+  border-right: 3vw solid white;
 }
